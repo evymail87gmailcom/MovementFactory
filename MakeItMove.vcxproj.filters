@@ -19,12 +19,12 @@
     <None Include="src\arduino folders read me.txt">
       <Filter>Misc Files</Filter>
     </None>
-    <None Include="MoveItInStyle.css">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.MakeItMove.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.MovementFactory.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

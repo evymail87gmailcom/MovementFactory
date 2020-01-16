@@ -77,8 +77,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\MakeItMove;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\arduino\avr\libraries\SoftwareSerial\src;$(ProjectDir)..\..\..\..\Documents\Arduino\libraries\WiFiEsp-master\src;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\libraries\Servo\src;$(ProjectDir)..\..\..\..\Documents\Arduino\libraries\WiFiEsp-master\src\utility;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\arduino\avr\cores\arduino;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\arduino\avr\variants\standard;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\avr\include;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\avr\include-fixed;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\avr\include\avr;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\lib\gcc\avr\4.8.1\include;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(ProjectDir)__vm\.MakeItMove.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\MovementFactory;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\arduino\avr\libraries\SoftwareSerial\src;$(ProjectDir)..\..\..\Documents\Arduino\libraries\WiFiEsp-master\src;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\libraries\Servo\src;$(ProjectDir)..\..\..\Documents\Arduino\libraries\WiFiEsp-master\src\utility;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\arduino\avr\cores\arduino;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\arduino\avr\variants\standard;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\avr\include;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\avr\include-fixed;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\avr\include\avr;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\lib\gcc\avr\4.8.1\include;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\Documents\Evys IT\Evys IoT-utbildning\Arduino\arduino-nightly\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.MovementFactory.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_atmega328p__;__AVR_ATmega328P__;__AVR_ATmega328p__;F_CPU=16000000L;ARDUINO=10900;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -110,7 +110,6 @@
     <None Include="MakeItMove.ino">
       <FileType>CppCode</FileType>
     </None>
-    <None Include="MoveItInStyle.css" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\arduino folders read me.txt">
@@ -118,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.MakeItMove.vsarduino.h" />
+    <ClInclude Include="__vm\.MovementFactory.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
